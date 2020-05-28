@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script src='index.js'></script>
+    <script src="https://kit.fontawesome.com/4c86703401.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <title>causeartist brands wireframe</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-dark my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <p class="h3">Brand Search</p>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+      </div>
+    </div>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">Filter Results</h5>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              Filter Group #1
+            </button>
+          </h5>
+        </div>
+
+        <div
+          id="collapseOne"
+          class="collapse"
+          aria-labelledby="headingOne"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between justify-content-between"
+                >Filter 1
+                <span class="badge badge-dark badge-pill">14</span></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 2<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 3<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 4<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 5<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 6<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Filter Group #2
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseTwo"
+          class="collapse"
+          aria-labelledby="headingTwo"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 1<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 2<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 3<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 4<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 5<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 6<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Filter Group #3
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseThree"
+          class="collapse"
+          aria-labelledby="headingThree"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 1<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 2</label
+              ><span class="badge badge-dark badge-pill">14</span>
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 3<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 4<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 5<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <label
+                class="input-group-text flex-grow-1 justify-content-between"
+                >Filter 6<span class="badge badge-dark badge-pill"
+                  >14</span
+                ></label
+              >
+              <!-- <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with checkbox"
+              /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mx-auto mt-5" style="width: 18rem;">
+      <img
+        class="card-img-top"
+        src="http://www.afpinsights.org/wp-content/uploads/2019/04/cause-artist.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <div class="d-flex">
+          <a href="#" class="btn btn-dark mx-1">Company Page</a>
+          <a href="#" class="btn btn-dark mx-1">Company Jobs</a>
+        </div>
+      </div>
+    </div>
+    <div class="card mx-auto mt-5" style="width: 18rem;">
+      <img
+        class="card-img-top"
+        src="http://www.afpinsights.org/wp-content/uploads/2019/04/cause-artist.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <div class="d-flex">
+          <a href="#" class="btn btn-dark mx-1">Company Page</a>
+          <a href="#" class="btn btn-dark mx-1">Company Jobs</a>
+        </div>
+      </div>
+    </div>
+    <div class="card mx-auto mt-5" style="width: 18rem;">
+      <img
+        class="card-img-top"
+        src="http://www.afpinsights.org/wp-content/uploads/2019/04/cause-artist.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <div class="d-flex">
+          <a href="#" class="btn btn-dark mx-1">Company Page</a>
+          <a href="#" class="btn btn-dark mx-1">Company Jobs</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center my-5">
+      <button type="button" class="btn btn-light">Load More</button>
+    </div>
+    <div class="jumbotron jumbotron-fluid mb-0">
+      <div class="container">
+        <!-- <h1 class="display-4">Fluid jumbotron</h1> -->
+        <!-- <p class="lead">
+          This is a modified jumbotron that occupies the entire horizontal space
+          of its parent.
+        </p> -->
+      </div>
+    </div>
+  </body>
+</html>
